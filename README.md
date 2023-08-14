@@ -10,3 +10,9 @@
 ```text
 python == Python 3.9.0
 ```
+
+## env
+
+```text
+python install requirement.txt
+```
