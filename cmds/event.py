@@ -29,15 +29,15 @@ class Event(Cog_Extension):
             time.sleep(3)
             await msg.channel.send('安靜的世界，適合好好休息。明天見。')
         
-        if  msg.content.find("不愛我") != -1 and msg.author.id ==901260539055996989: #901302765819674634 //網管轄權力鬥爭
+        if  msg.content.find("不愛我") != -1 and msg.author.id =="ID": 
              
              await msg.channel.send(f'我當然愛主人<@{msg.author.id}>')
         elif msg.content.find("不愛我") != -1:
             await msg.delete()
-            await msg.channel.send(f'你不是主人<@901260539055996989>,可憐')
+            await msg.channel.send(f'你不是主人<@"ID">,可憐')
             
         elif msg.content.startswith("say") :
-            if msg.author.id==901260539055996989:
+            if msg.author.id=="ID":
                 await msg.delete()
                 await msg.channel.send(f'{msg.content[3:]}')
             else:
