@@ -22,7 +22,8 @@ python install requirements.txt
 python bot.py
 ```
 
-#架構
+## 架構
+```text
 |- __pycache__/
 |- cmds/                 # 指令集
 |- 02/                   # 本地圖片庫
@@ -39,7 +40,7 @@ python bot.py
 |- requestments.txt       # 需要套件
 |- setting.json          # 設定
 |- todo_list.py          # 日曆記事
-
+```
 
 
 ##  demo
